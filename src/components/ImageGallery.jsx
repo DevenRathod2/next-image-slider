@@ -1427,6 +1427,7 @@ class ImageGallery extends React.Component {
           title={item.thumbnailTitle}
           loading={item.thumbnailLoading}
           onError={handleThumbnailError}
+          priority={true}
         />
         {item.thumbnailLabel && (
           <div className="image-gallery-thumbnail-label">

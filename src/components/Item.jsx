@@ -43,19 +43,17 @@ const Item = React.memo((props) => {
     title: originalTitle,
     onLoad: (event) => handleImageLoaded(event, original),
     onError: onImageError,
-    loading
+
+    loading,
   };
 
-  if(!originalHeight){
-    imgTagProps.layout =  'fill';
+  if (!originalHeight) {
+    imgTagProps.layout = "fill";
   }
 
   return (
     <React.Fragment>
-      <Image
-        className="image-gallery-image"
-        {...imgTagProps}
-      />
+      <Image className="image-gallery-image" priority={true} {...imgTagProps} />
       {description && (
         <span className="image-gallery-description">{description}</span>
       )}

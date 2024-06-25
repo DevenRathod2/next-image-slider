@@ -1,16 +1,16 @@
-# Next Image Gallery
-
+# Next Image Slider
 
 Note: Forked form [`react-image-gallery`](https://github.com/xiaolin/react-image-gallery)
+
 - Added Support for Next JS with `<Image>` tag from `next/image`
+
 ### Live Demo (try it on mobile for swipe support)
 
 [`linxtion.com/demo/react-image-gallery`](http://linxtion.com/demo/react-image-gallery)
 
 ![demo gif](https://github.com/sangeethkumarsg/next-image-gallery/raw/main/static/image_gallery_v1.0.2.gif)
 
-Next image gallery is a React component for building image galleries and carousels, it uses Next JS `<Image>` tag from `next/image`. 
-
+Next image gallery is a React component for building image galleries and carousels, it uses Next JS `<Image>` tag from `next/image`.
 
 ## Features
 
@@ -55,15 +55,15 @@ const images = [
     originalWidth: 1000,
     originalHeight: 600,
     thumbnailWidth: 250,
-    thumbnailHeight: 150
+    thumbnailHeight: 150,
   },
   {
     original: "https://picsum.photos/id/1015/1000/600/",
     thumbnail: "https://picsum.photos/id/1015/250/150/",
-   originalWidth: 1000,
+    originalWidth: 1000,
     originalHeight: 600,
     thumbnailWidth: 250,
-    thumbnailHeight: 150
+    thumbnailHeight: 150,
   },
   {
     original: "https://picsum.photos/id/1019/1000/600/",
@@ -71,7 +71,7 @@ const images = [
     originalWidth: 1000,
     originalHeight: 600,
     thumbnailWidth: 250,
-    thumbnailHeight: 150
+    thumbnailHeight: 150,
   },
 ];
 

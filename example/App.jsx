@@ -156,7 +156,8 @@ class App extends React.Component {
               alt="sample video cover"
               className="image-gallery-image"
               src={item.original}
-              layout='fill'
+              priority={true}
+              layout="fill"
             />
             {item.description && (
               <span
