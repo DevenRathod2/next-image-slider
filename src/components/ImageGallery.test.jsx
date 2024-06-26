@@ -7,8 +7,8 @@ describe("<ImageGallery />", () => {
   const defaultProps = {
     items: [
       {
-        original: "test.png",
-        thumbnail: "test_thumb.png",
+        original: "./2.jpg",
+        thumbnail: "./2t.jpg",
       },
     ],
   };
